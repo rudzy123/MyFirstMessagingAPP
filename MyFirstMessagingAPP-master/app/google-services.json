@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "776451760040",
+    "firebase_url": "https://firstmessagingapprm.firebaseio.com",
+    "project_id": "firstmessagingapprm",
+    "storage_bucket": "firstmessagingapprm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776451760040:android:241f0c321425a707",
+        "android_client_info": {
+          "package_name": "com.example.rudym.firstmessagingapp_rm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776451760040-rag08mi13bm6fomcfutsimrnto3sma2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rudym.firstmessagingapp_rm",
+            "certificate_hash": "d3f555308e1d5c3e4fcfff7d5a4547b550883fac"
+          }
+        },
+        {
+          "client_id": "776451760040-n0cegcd2ko5v8ml47hj5428n20e3tt1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPSS5yngk2ivw_MThgtmkBkx_1-HAsSOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776451760040-n0cegcd2ko5v8ml47hj5428n20e3tt1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
