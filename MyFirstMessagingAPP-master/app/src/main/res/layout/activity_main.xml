@@ -7,15 +7,13 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text1"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="bottom"
-        android:hint="A message will appear here"
-        android:padding="12dp"
-        android:background="?android:attr/editTextBackground" />
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,15 +26,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Type here"
-            android:inputType="textPersonName"
-            android:padding="12dp" />
+            android:hint="Type a message"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:padding="12dp"
+            android:background="?android:attr/editTextBackground" />
 
         <Button
             android:id="@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="sendMessage"
             android:text="Send"
             android:layout_marginStart="12dp" />
     </LinearLayout>
